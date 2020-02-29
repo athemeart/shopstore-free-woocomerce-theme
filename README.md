@@ -6,21 +6,27 @@ Shop Store theme ! Free Woocomerce Theme
 
 <h4><a href="https://athemeart.com/demo/shopstore/" target="_blank" >Live Demo.</a></h4>
 
-<h4><a href="https://athemeart.com/downloads/shopstore/" target="_blank" >Available Pro version</a></h4>
+
 
 
 <img src="https://raw.githubusercontent.com/edatastyle/Shopstore-free-woocomerce-theme/master/screenshot.png" alt="Free Woocomerce Theme" />
 
 
+<h4><a href="https://athemeart.com/downloads/shopstore/" target="_blank" >Available Pro version</a></h4>
+
+<pre>
 == Copyright ==
 shopstore WordPress Theme, Copyright (C) 2017 aThemeArt.com
 shopstore is distributed under the terms of the GNU GPL
+</pre>
 
+<pre>
 == Installation ==
 	
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
 2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
+</pre>
 
 <pre>
 == Credits ==
