@@ -1,0 +1,63 @@
+/*
+Theme Name: shopstore
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align:right;
+
+}
+.box-icon-cart {
+    text-align: left;
+}
+#text-search{
+	padding: 0 160px 0 55px;
+}
+.search-cat::after {
+	left:0px;	
+}
+#btn-search-category,
+.search-cat::after,
+.search-form::before,
+.widget_search input[type="submit"]{
+	left:0px;
+	right:auto!important;
+}
+
+.search-form::before,
+.widget_search input[type="submit"] {
+	left:10px;	
+}
+.sidebar .widget .widget-title h3::before {
+	left:auto;
+	right:0px;	
+}
+.sidebar .widget .widget-title h3::after {
+	right:0px;
+}
+.sidebar .widget li::before, ul.popular_category_list li::before, .woocommerce-MyAccount-navigation li::before{
+	left:auto;
+	right:0px;	
+}
+#secondary .widget li, ul.popular_category_list li, .woocommerce-MyAccount-navigation li{
+	padding-left:0px;
+	padding-right:20px;	
+}
+#secondary .widget li::after, .woocommerce-MyAccount-navigation li::after {
+
+    background: -moz-radial-gradient(right, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    background: -webkit-radial-gradient(right, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at right, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+}
+.woocommerce-products-header__title{
+	display:none;	
+}
