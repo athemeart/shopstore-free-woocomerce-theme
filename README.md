@@ -1,22 +1,13 @@
 Shop Store theme ! Free Woocomerce Theme
 ========================================
 
-ShopStore is <a href="https://athemeart.com/demo/shopstore/" target="_blank">best ecommerce for wordpress</a> theme. The theme is fully responsive that make your site look good on any devices and screens . Its attractive design and impressive product display options make this shopping theme an excellent choice for online shops. it's free <strong>WooCommerce WordPress Theme</strong> suitable for eCommerce websites of any kind of <a href="https://athemeart.com/demo/shopstore/" target="_blank">wordpress store</a> , Shop type: fashion, sport, technology, fashion, furniture, digitals etc. Its modern design is perfect to create a website for your business. Online Store includes plenty of customization options that are easy to use. ShopStore works perfectly with Gutenberg and the most popular page builders  (  WPBakery Page Builder, Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Developers will enjoy his extensible codebase making it a pleasure to customize and extend. Best friend of Elementor &amp; WooCommerce. Looking for a Multi-Purpose theme or <strong>Wordpress Store</strong>? Look no further! Check the demos to realize that it's the only theme you will ever require
-<h4><a href="https://athemeart.com/demo/shopstore/" target="_blank" >Live Demo.</a></h4>
-
-
-
-
 <img src="https://raw.githubusercontent.com/edatastyle/Shopstore-free-woocomerce-theme/master/screenshot.png" alt="Free Woocomerce Theme" />
+
+ShopStore is <a href="https://athemeart.com/demo/shopstore/" target="_blank">best ecommerce for wordpress</a> theme. The theme is fully responsive that make your site look good on any devices and screens . Its attractive design and impressive product display options make this shopping theme an excellent choice for online shops. it's free <strong>WooCommerce WordPress Theme</strong> suitable for eCommerce websites of any kind of <a href="https://athemeart.com/demo/shopstore/" target="_blank">wordpress store</a> , Shop type: fashion, sport, technology, fashion, furniture, digitals etc. Its modern design is perfect to create a website for your business. Online Store includes plenty of customization options that are easy to use. ShopStore works perfectly with Gutenberg and the most popular page builders  (  WPBakery Page Builder, Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Developers will enjoy his extensible codebase making it a pleasure to customize and extend. Best friend of Elementor &amp; WooCommerce. Looking for a Multi-Purpose theme or <strong>Wordpress Store</strong>? Look no further! <a href="https://athemeart.com/demo/shopstore/" target="_blank" >Check the demos</a> to realize that it's the only theme you will ever require
 
 
 <h4><a href="https://athemeart.com/downloads/shopstore/" target="_blank" >Available Pro version</a></h4>
 
-<pre>
-== Copyright ==
-shopstore WordPress Theme, Copyright (C) 2017 aThemeArt.com
-shopstore is distributed under the terms of the GNU GPL
-</pre>
 
 <pre>
 == Installation ==
@@ -182,4 +173,10 @@ All are Licensed under CC0
 * Review team bug fixed
 = 1.2 =
 * Review team bug fixed
+</pre>
+
+<pre>
+== Copyright ==
+shopstore WordPress Theme, Copyright (C) 2017 aThemeArt.com
+shopstore is distributed under the terms of the GNU GPL
 </pre>
