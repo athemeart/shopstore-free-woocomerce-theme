@@ -1,4 +1,4 @@
-Shop Store theme ! Free Woocomerce Theme
+Shop Store theme ! Free Woocommerce Theme
 ========================================
 
 <img src="https://raw.githubusercontent.com/edatastyle/Shopstore-free-woocomerce-theme/master/screenshot.png" alt="Free Woocomerce Theme" />
