@@ -1,8 +1,8 @@
 Shop Store theme ! Free Woocommerce Theme 
 ========================================
-
-<h4><a href="https://athemeart.com/demo/shopstore/" target="_blank">Live Demo 1.</a>  | <a href="https://athemeart.com/demo/shopstore2nd/" target="_blank">Live Demo 1.</a>| <a href="https://athemeart.com/downloads/shopstore/" target="_blank">Documentation</a> | <a href="https://athemeart.com/blog/docs/ecommerce-theme-user-guide/" target="_blank">PRO VERSION</a></h4>
-
+<br/>
+<h4><a href="https://athemeart.com/demo/shopstore/" target="_blank">Live Demo 1</a>  |    <a href="https://athemeart.com/demo/shopstore2nd/" target="_blank">Live Demo 2 </a>     | <a href="https://athemeart.com/downloads/shopstore/" target="_blank">Documentation</a>  | <a href="https://athemeart.com/blog/docs/ecommerce-theme-user-guide/" target="_blank">PRO VERSION</a></h4>
+<br/>
 <a href="https://athemeart.com/downloads/shopstore/" target="_blank">
 <img src="https://raw.githubusercontent.com/edatastyle/Shopstore-free-woocomerce-theme/master/screenshot.png" alt="WordPress eCommerce theme" /></a>
 
