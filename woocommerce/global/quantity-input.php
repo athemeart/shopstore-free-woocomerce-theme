@@ -28,7 +28,7 @@ if ( $max_value && $min_value === $max_value ) {
 	$label = ! empty( $args['product_name'] ) ? sprintf( __( '%s quantity', 'shopstore' ), wp_strip_all_tags( $args['product_name'] ) ) : __( 'Quantity', 'shopstore' );
 	?>
 	<div class="quantity">
-		<label class="screen-reader-text" for="<?php echo esc_attr( $input_id ); ?>"><?php echo esc_attr( $label ); ?></label>
+		<label class="screen-reader-text" for="<?php echo esc_attr( $input_id ); ?>"><?php echo esc_html( $label ); ?></label>
        <button type="button" class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
 		<input
 			type="number"

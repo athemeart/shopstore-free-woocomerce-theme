@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <a class="skip-link screen-reader-text" href="#primary">
-<?php _e( 'Skip to content', 'shopstore' ); ?>
+<?php esc_html_e( 'Skip to content', 'shopstore' ); ?>
 </a>
 <div class="boxed">
 

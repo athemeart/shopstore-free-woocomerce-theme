@@ -28,7 +28,8 @@
 					<div class="col-md-7">
 						<p class="copyright"> <?php
 			/* translators: 1: Current Year, 2: Blog Name 3: Theme Developer 4: WordPress. */
-		printf( esc_html__( 'Copyright &copy; %1$s %2$s , All Right Reserved. %3$s Made with %4$s .', 'shopstore' ), esc_attr( date( 'Y' ) ), esc_html( get_bloginfo( 'name' ) ), '<br/>Theme: <a href="https://athemeart.com/downloads/shopstore/" title="Multipurpose WooCommerce WordPress Theme" target="_blank" rel="nofollow">shopstore</a>', '<i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://athemeart.com" target="_blank" title="Art of free & Premium themes" rel="nofollow">aThemeArt</a>' );
+		printf( esc_html__( 'Copyright &copy; %1$s %2$s , All Right Reserved. %3$s by aThemeArt - Proudly powered by %4$s', 'shopstore' ), esc_attr( date( 'Y' ) ), esc_html( get_bloginfo( 'name' ) ), '<br/><a href="https://athemeart.com/downloads/shopstore/" title="WordPress store theme" target="_blank" rel="nofollow">Shop Store Theme</a>', '<a href="'.esc_attr( 'https://wordpress.org' ).'" target="_blank" rel="nofollow">'.esc_html_x( 'WordPress', 'credit to cms', 'shopstore' ).'</a>' );
+		
 	?></p>
     
 
@@ -41,7 +42,7 @@
                    
 						<?php 
 						foreach ($social_link['social'] as $key => $link): 
-							if( $link != ""):
+							if( !empty( $link )):
 							?>
 							<li><a href="<?php echo esc_url( $link );?>" class="fa <?php echo esc_attr($key);?>" target="_blank"></a></li>
 							<?php endif; 

@@ -32,6 +32,10 @@ p.cresta-actions a.skip {
     padding: 1em;
     text-align: center;
     background: #e5e5e5;
+    width: 32%;
+    float: left;
+    min-height: 220px;
+    margin-right: 1%;
 }
 
 p.cresta-actions a.docs:focus,

@@ -865,7 +865,7 @@ margin-bottom:.66667rem
 }
 #review_form label{
 	float:left;
-	width:100px;
+	width:70%;
 	font-size:0.8rem;
 	padding-top:10px;
 }
@@ -1010,7 +1010,9 @@ p.comment-form-comment{
 .edit-account .woocommerce-Button.button,
 .woocommerce button.woocommerce-Button.button,
 .woocommerce .shipping-calculator-form .button,
-.woocommerce .widget_price_filter .price_slider_amount .button{
+.woocommerce .widget_price_filter .price_slider_amount .button,
+.wc-proceed-to-checkout a.checkout-button,
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit {
     display: inline-block;
     color: #ffffff;
     font-family: 'Nunito';
@@ -1024,7 +1026,9 @@ p.comment-form-comment{
     overflow: hidden;
     z-index: 5;
 	text-transform:uppercase;
+	
 }
+
 .woocommerce .coupon .button,
 .woocommerce .coupon .button:hover,
 .woocommerce a.button.wc-backward,
@@ -1049,7 +1053,8 @@ p.comment-form-comment{
 .woocommerce .wc-backward:before,
 .woocommerce-checkout button.button:before,
 .woocommerce .shipping-calculator-form .button:before,
-.woocommerce .widget_price_filter .price_slider_amount .button:before{
+.woocommerce .widget_price_filter .price_slider_amount .button:before,
+.wc-proceed-to-checkout a.checkout-button:before{
     content: '';
     position: absolute;
     width: 100%;
@@ -1075,7 +1080,8 @@ p.comment-form-comment{
 .woocommerce .wc-backward:hover:before,
 .woocommerce-checkout button:hover:before,
 .woocommerce .shipping-calculator-form .button:hover:before,
-.woocommerce .widget_price_filter .price_slider_amount .button:hover:before{
+.woocommerce .widget_price_filter .price_slider_amount .button:hover:before,
+.wc-proceed-to-checkout a.checkout-button:hover:before{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
@@ -1487,4 +1493,21 @@ toolbar
 }
 .woocommerce .result-count li:last-child:after {
 	display: none
+}
+.woocommerce .woocommerce-form-login .form-row{
+	display:block;
+	clear:both;	
+}
+.woocommerce div.product p.stock.out-of-stock{
+	display:block;
+	color:#F00;	
+}
+#wp-comment-cookies-consent{
+	float:left;
+	margin-top: 15px;
+	margin-right:15px;	
+}
+.woocommerce #review_form .form-submit{
+	clear:both;
+	display:block;
 }

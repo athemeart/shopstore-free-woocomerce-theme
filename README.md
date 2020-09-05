@@ -1,5 +1,8 @@
 Shop Store theme ! Free Woocommerce Theme 
 ========================================
+
+<h4><a href="https://athemeart.com/demo/shopstore/" target="_blank">Live Demo 1.</a>  | <a href="https://athemeart.com/demo/shopstore2nd/" target="_blank">Live Demo 1.</a>| <a href="https://athemeart.com/downloads/shopstore/" target="_blank">Documentation</a> | <a href="https://athemeart.com/blog/docs/ecommerce-theme-user-guide/" target="_blank">PRO VERSION</a></h4>
+
 <a href="https://athemeart.com/downloads/shopstore/" target="_blank">
 <img src="https://raw.githubusercontent.com/edatastyle/Shopstore-free-woocomerce-theme/master/screenshot.png" alt="WordPress eCommerce theme" /></a>
 
@@ -91,6 +94,19 @@ All are Licensed under CC0
 <pre>
 == Upgrade Notice  ==
 
+= 4.1.9 =
+* Elementor editor simplify
+
+= 4.1.8 =
+* Author URL remove from footer
+
+= 4.1.7 =
+* Removed esc_attr error
+
+= 4.1.5 =
+* Removed all demo content
+* theme meta info added
+
 = 4.1.4 =
 * Widget add for Advanced Product Search 
 
@@ -105,72 +121,6 @@ All are Licensed under CC0
 * gutenberg gallery slider
 * google font sawp
 * recommed seo plugins
-
-= 3.7 =
-* extra icon remove
-
-= 3.6 =
-* fixed double showing archive title
-
-= 3.5 =
-* recmommed two plugins
-
-= 3.4 =
-* skip-link added
-
-= 3.3 =
-* add sidebar ( front_page_sidebar )
-
-= 3.2 =
-* Added Magnific-Popup
-
-= 3.1 =
-* Sidebar name added as old
-
-= 3.0 =
-* Defaul sidebar added
-
-= 2.9 =
-* Sidebar name updated
-
-= 2.8 =
-* WooCommerce Toolbar
-
-= 2.7 =
-* woocommerce quantity ( + - ) sing
-* Add custom template
-
-= 2.6 =
-* woocommerce 3.6 compatible single product page
-
-
-= 2.5 =
-* woocommerce 3.6 compatible
-
-= 2.0 =
-* Woocommerce product filter fixed
-
-= 1.9 =
-* Woocomerce serach query added
-* demo content added
-
-= 1.8 =
-* Woocomerce serach url updated
-
-= 1.7 =
-* Pinterest URL
-
-= 1.6 =
-* RTL, Color Options , Text update
-
-= 1.5 =
-* Read me file issue fixed
-= 1.4 =
-* Review team bug fixed
-= 1.3 =
-* Review team bug fixed
-= 1.2 =
-* Review team bug fixed
 </pre>
 
 <pre>

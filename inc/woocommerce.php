@@ -105,8 +105,8 @@ add_filter( 'loop_shop_columns', 'shopstore_woocommerce_loop_columns' );
  */
 function shopstore_woocommerce_related_products_args( $args ) {
 	$defaults = array(
-		'posts_per_page' => 4,
-		'columns'        => 4,
+		'posts_per_page' => 6,
+		'columns'        => 2,
 	);
 
 	$args = wp_parse_args( $defaults, $args );
@@ -247,7 +247,7 @@ if ( ! function_exists( 'shopstore_template_loop_product_title' ) ) {
 		$link = apply_filters( 'woocommerce_loop_product_link', get_the_permalink(), $product );
 		echo '<div class="product-name">';
 			echo '<a href="' . esc_url( $link ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
-				echo  get_the_title();
+				echo esc_html( get_the_title() );
 			echo '</a>';
 		echo '</div>';
 	}
@@ -402,8 +402,6 @@ if ( ! function_exists( 'shopstore_template_single_price_action' ) ) {
 
         echo '<div class="price shopstore_variable_price">'.$price.'</div><div class="shopstore_variable_product_status"></div>
         <div class="hidden-variable-price" >'.$price.'</div>';
-		}elseif( $product->get_type() == 'grouped' ){
-			
 		}elseif( $product->get_type() == 'simple' ){
 			
 			if( function_exists('woocommerce_single_variation') ) { echo woocommerce_template_single_price(); }

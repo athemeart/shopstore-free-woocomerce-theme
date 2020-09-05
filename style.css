@@ -4,8 +4,10 @@ Theme URI: https://athemeart.com/downloads/shopstore/
 Author: aThemeArt
 Author URI: http://athemeart.com/
 Description: ShopStore is a sleek multipurpose WordPress WooCommerce theme. The theme is fully responsive that make your site look good on any devices and screens . Its attractive design and impressive product display options make this shopping theme an excellent choice for online shops. it's free WooCommerce WordPress Theme suitable for eCommerce websites of any Store , Shop type: fashion, sport, technology, fashion, furniture, digitals etc. Its modern design is perfect to create a website for your business. Online Store includes plenty of customization options that are easy to use. ShopStore works perfectly with Gutenberg and the most popular page builders  (  WPBakery Page Builder, Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). ShopStore is also responsive, RTL & translation ready etc, so that is was easy for you to create extra layouts and pages. And thanks to the most popular and powerful WooCommerce plugin you can create a versatile and completely customizable WordPress shop. Check out Demo at https://athemeart.com/demo/shopstore
-
-Version: 4.1.4
+Requires at least: 5.0
+Tested up to: 5.5.3
+Requires PHP: 7.0
+Version: 4.2.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: shopstore
@@ -3300,3 +3302,8 @@ h3.title-post{
 .header-middle .aspw-widgets-wrap-class{
 	padding-top:20px;	
 }
+.woocommerce table.cart img{
+	max-width:80px;
+	height:auto;	
+}
+

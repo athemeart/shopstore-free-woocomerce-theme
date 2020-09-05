@@ -135,32 +135,22 @@ if ( ! function_exists( 'shopstore_post_thumbnail' ) ) :
 	}
 endif;
 
-
-if( ! function_exists( 'shopstore_thmeme_import_files' ) ) :
-	/**
-	*
-	*/
-	include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-	if ( is_plugin_active('one-click-demo-import/one-click-demo-import.php') ){
-	function shopstore_thmeme_import_files() {
-		$array = array(
-			array(
-				'import_file_name'			=> esc_html__( 'ShopStore Demo Import', 'shopstore' ),
-				'categories'				=> array( 'shopstore' ),
-				'local_import_file'			=> trailingslashit( get_template_directory() ) . 'inc/demo-data/demo.xml',
-				
-				'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/demo-data/widgets.wie',
-				'import_notice'				=> esc_html__( 'After import demo data, just set static homepage from settings > reading, check widgets & menus.', 'shopstore' ),
-				'import_preview_image_url'     => 'https://themes.svn.wordpress.org/shopstore/1.0.0/screenshot.png',
-				'preview_url'                => 'https://athemeart.com/demo/shopstore',
-			),
-			
-		);
+if( !function_exists('shopstore_elementor_editor_simplify') ){
+	
+	function shopstore_elementor_editor_simplify(){
 		
-		return apply_filters('shopstore_thmeme_import_files', $array);
+		add_action( 'wp_head', function () {
+				echo '<style type="text/css">
+				#elementor-panel-category-pro-elements,
+				#elementor-panel-category-theme-elements,
+				#elementor-panel-category-woocommerce-elements,
+				#elementor-panel-get-pro-elements{
+					display:none!important;	
+				}
+				</style>';
+			}  );
+		
 	}
-	add_filter( 'pt-ocdi/import_files', 'shopstore_thmeme_import_files' );
-	}
-	
-	
-endif;
+	add_action( 'elementor/editor/init', 'shopstore_elementor_editor_simplify');
+
+}

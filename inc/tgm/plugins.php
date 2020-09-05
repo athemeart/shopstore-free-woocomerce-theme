@@ -60,15 +60,11 @@ function shopstore_register_required_plugins() {
 	$plugins = array(
 		
 		array(
-			'name'      => 'Elementor Page Builder',
+			'name'      => 'Elementor',
 			'slug'      => 'elementor',
 			'required'  => false,
 		),
-		array(
-			'name'      => 'One Click Demo Import',
-			'slug'      => 'one-click-demo-import',
-			'required'  => false,
-		),
+		
 		array(
 			'name'      => 'Smart Variation Swatches for WooCommerce',
 			'slug'      => 'variation-swatches-style',
@@ -91,19 +87,6 @@ function shopstore_register_required_plugins() {
 			'slug'      => 'advanced-product-search-for-woo',
 			'required'  => false,
 		),
-		
-		array(
-			'name'      => 'WordPress SEO Plugin – Rank Math',
-			'slug'      => 'seo-by-rank-math',
-			'required'  => false,
-		),
-		
-		array(
-			'name'      => 'WP Fastest Cache',
-			'slug'      => 'wp-fastest-cache',
-			'required'  => false,
-		),
-		
 		
 		
 	);
